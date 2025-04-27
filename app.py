@@ -1,3 +1,9 @@
+# --- HACK: Workaround for Streamlit Cloud SQLite version ----
+# Must be first import
+import sys
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# --- End of HACK ---
 import streamlit as st
 import openai
 import os
