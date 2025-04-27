@@ -1,8 +1,8 @@
 streamlit>=1.20.0
 openai>=1.0.0
-# Ghim vào phiên bản ChromaDB cụ thể
 chromadb==0.4.24
 langchain-text-splitters>=0.0.1
 tiktoken>=0.5.0
 logging
 numpy<2.0
+pysqlite3-binary  # <--- Dòng mới thêm
