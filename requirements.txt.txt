@@ -1,0 +1,6 @@
+streamlit>=1.20.0
+openai>=1.0.0
+chromadb>=0.4.0,<0.5.0  # Ghim phiên bản ChromaDB để đảm bảo ổn định
+langchain-text-splitters>=0.0.1
+tiktoken>=0.5.0
+logging # Thư viện chuẩn, nhưng ghi rõ để chắc chắn
